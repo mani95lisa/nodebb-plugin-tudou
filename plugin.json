@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-plugin-tudou",
+    "name": "NodeBB Plugin TuDou",
+    "description": "NodeBB plugin allows users to embed tudou.com videos inline in ther posts",
+    "url": "https://github.com/mani95lisa/nodebb-plugin-tudou",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+    ],
+    "css": [
+        "static/style.css"
+    ]
+
+}
