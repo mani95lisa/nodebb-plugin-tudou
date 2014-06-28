@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-tudou",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NodeBB plugin allows users to embed tudou.com videos inline in ther posts",
   "main": "index.js",
   "scripts": {
